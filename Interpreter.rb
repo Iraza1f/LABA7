@@ -71,5 +71,5 @@ def parse(input)
   stack.first.execute
 end
 
-puts parse('4 5 + 2 * ')
+puts parse('4 5 2 - *')
 gets
